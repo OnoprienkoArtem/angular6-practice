@@ -10,18 +10,14 @@ export class TimeModuleComponent implements OnInit {
   date = new Date();
 
   hours: number = this.date.getHours();
-  min = this.date.getMinutes();
-  year = this.date.getFullYear();
-  day = this.date.getDate();
-  month = this.date.getMonth();
+  min: number = this.date.getMinutes();
+  year: number = this.date.getFullYear();
+  day: number = this.date.getDate();
+  month: number = this.date.getMonth();
   monthList: string[] = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
   currentMonth = this.monthList[this.month];
-
-  message: string = '';
+  message: string = ''; 
  
- 
-
-
   constructor() { }
 
   ngOnInit() {   
