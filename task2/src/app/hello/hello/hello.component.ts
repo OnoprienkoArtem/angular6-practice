@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HelloComponent implements OnInit {
 
-  hello: string[] = [
+  items: string[] = [
     'Hello World',
     'Привет Мир',
     'Привіт Світ',

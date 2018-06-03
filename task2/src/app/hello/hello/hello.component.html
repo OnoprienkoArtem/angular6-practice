@@ -1,3 +1,7 @@
 <p>
   hello works!
 </p>
+
+<div *ngFor="let item of items; index as i">
+  <p>номер {{i + 1}}: {{ item }}</p>
+</div>
